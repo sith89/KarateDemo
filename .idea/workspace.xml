@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d66b52f2-6474-4c27-b4ae-8e1c4eeb3c7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sithidemo/ExampleTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sithidemo/users/UserRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sithidemo/users/users.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/karate.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/sithidemo.users.users-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/sithidemo.users.users-2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/sithidemo.users.users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.examples.users.users-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.examples.users.users-2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.examples.users.users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.sithidemo.publicusers.publicusers-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.sithidemo.publicusers.publicusers-2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.sithidemo.publicusers.publicusers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.sithidemo.users.users-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.sithidemo.users.users-2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.sithidemo.users.users-3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/src.test.java.sithidemo.users.users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/testproject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/karate-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sithidemo/ExampleTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sithidemo/users/UserRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sithidemo/users/users.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testproject.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Q9pXepVUT0DP02j569kcIWXIq5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: users (1)">
+    <configuration name="Feature: demousers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/sithidemo/publicusers/demousers.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="testproject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: demousers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: publicusers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/sithidemo/publicusers/publicusers.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="testproject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: publicusers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: users (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/sithidemo/users/users.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="testproject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/users/users.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="testproject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sithidemo.users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sithidemo.users" />
+      <option name="MAIN_CLASS_NAME" value="sithidemo.users.UserRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: users (1)" />
+        <item itemvalue="JUnit.UserRunner" />
+        <item itemvalue="Cucumber java.Feature: publicusers" />
+        <item itemvalue="Cucumber java.Feature: demousers" />
+        <item itemvalue="Cucumber java.Feature: users" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d66b52f2-6474-4c27-b4ae-8e1c4eeb3c7b" name="Default Changelist" comment="" />
+      <created>1567192706350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567192706350</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

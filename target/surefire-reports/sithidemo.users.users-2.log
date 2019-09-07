@@ -1,0 +1,176 @@
+22:17:16.225 karate.env system property was: null 
+22:17:16.268 request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer m-22usQLz7hWRTe1P6wqlD1d1lXcqN_3KILQ
+1 > Connection: Keep-Alive
+1 > Content-Length: 111
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+{"first_name":"SLUser","last_name":"user1","gender":"male","email":"1567702036255@gmail.com","status":"active"}
+
+22:17:16.763 response time in milliseconds: 493.99
+1 < 302
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Thu, 05 Sep 2019 16:47:16 GMT
+1 < Location: https://gorest.co.in/public-api/users/1687
+1 < Server: nginx
+1 < Set-Cookie: _csrf=4764496699c9114f4671f4188d79a4426930d69287a41e1cdc79da373535e6b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IDTMwJvp1_JMrcmBRs3p70DZ4WBj4x5z%22%3B%7D; path=/; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept
+1 < X-Rate-Limit-Limit: 30
+1 < X-Rate-Limit-Remaining: 28
+1 < X-Rate-Limit-Reset: 4
+{"_meta":{"success":true,"code":201,"message":"A resource was successfully created in response to a POST request. The Location header contains the URL pointing to the newly created resource.","rateLimit":{"limit":30,"remaining":28,"reset":4}},"result":{"id":"1687","first_name":"SLUser","last_name":"user1","gender":"male","dob":null,"email":"1567702036255@gmail.com","phone":null,"website":null,"address":null,"status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/1687"},"edit":{"href":"https://gorest.co.in/public-api/users/1687"},"avatar":{"href":null}}}}
+
+22:17:16.765 request:
+2 > GET https://gorest.co.in/public-api/users
+2 > Accept-Encoding: gzip,deflate
+2 > Authorization: Bearer m-22usQLz7hWRTe1P6wqlD1d1lXcqN_3KILQ
+2 > Connection: Keep-Alive
+2 > Content-Type: application/json; charset=UTF-8
+2 > Cookie: _csrf=4764496699c9114f4671f4188d79a4426930d69287a41e1cdc79da373535e6b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IDTMwJvp1_JMrcmBRs3p70DZ4WBj4x5z%22%3B%7D
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+22:17:16.874 response time in milliseconds: 107.77
+2 < 200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=UTF-8
+2 < Date: Thu, 05 Sep 2019 16:47:16 GMT
+2 < Server: nginx
+2 < Set-Cookie: _csrf=df3f7d7cc82b4885c80a493136895bfe74c6acc887a7c5298f3a0adb76b8f58da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0DZLDVtwJ8vkQ0KlY-xM8-dNDLV0f_B%22%3B%7D; path=/; HttpOnly
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Accept]
+2 < X-Rate-Limit-Limit: 30
+2 < X-Rate-Limit-Remaining: 27
+2 < X-Rate-Limit-Reset: 6
+{"_meta":{"success":true,"code":200,"message":"OK. Everything worked as expected.","rateLimit":{"limit":30,"remaining":27,"reset":6}},"result":{"id":"1687","first_name":"SLUser","last_name":"user1","gender":"male","dob":null,"email":"1567702036255@gmail.com","phone":null,"website":null,"address":null,"status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/1687"},"edit":{"href":"https://gorest.co.in/public-api/users/1687"},"avatar":{"href":null}}}}
+
+22:17:16.883 request:
+3 > POST https://gorest.co.in/public-api/users
+3 > Accept-Encoding: gzip,deflate
+3 > Authorization: Bearer m-22usQLz7hWRTe1P6wqlD1d1lXcqN_3KILQ
+3 > Connection: Keep-Alive
+3 > Content-Length: 115
+3 > Content-Type: application/json; charset=UTF-8
+3 > Cookie: _csrf=df3f7d7cc82b4885c80a493136895bfe74c6acc887a7c5298f3a0adb76b8f58da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0DZLDVtwJ8vkQ0KlY-xM8-dNDLV0f_B%22%3B%7D
+3 > Host: gorest.co.in
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+{"first_name":"SLUser","last_name":"user2","gender":"female","email":"1567702036258@yahoo.com","status":"inactive"}
+
+22:17:17.272 response time in milliseconds: 389.50
+3 < 302
+3 < Connection: keep-alive
+3 < Content-Type: application/json; charset=UTF-8
+3 < Date: Thu, 05 Sep 2019 16:47:17 GMT
+3 < Location: https://gorest.co.in/public-api/users/1688
+3 < Server: nginx
+3 < Set-Cookie: _csrf=5e1cc1c05d064521fb12068e72f5bd5d2f59706d74deb6a2519e1b2348388a22a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HHUAqmHQUorF2T4AeMcjN0NMSEslR_qZ%22%3B%7D; path=/; HttpOnly
+3 < Transfer-Encoding: chunked
+3 < Vary: Accept
+3 < X-Rate-Limit-Limit: 30
+3 < X-Rate-Limit-Remaining: 26
+3 < X-Rate-Limit-Reset: 8
+{"_meta":{"success":true,"code":201,"message":"A resource was successfully created in response to a POST request. The Location header contains the URL pointing to the newly created resource.","rateLimit":{"limit":30,"remaining":26,"reset":8}},"result":{"id":"1688","first_name":"SLUser","last_name":"user2","gender":"female","dob":null,"email":"1567702036258@yahoo.com","phone":null,"website":null,"address":null,"status":"inactive","_links":{"self":{"href":"https://gorest.co.in/public-api/users/1688"},"edit":{"href":"https://gorest.co.in/public-api/users/1688"},"avatar":{"href":null}}}}
+
+22:17:17.273 request:
+4 > GET https://gorest.co.in/public-api/users
+4 > Accept-Encoding: gzip,deflate
+4 > Authorization: Bearer m-22usQLz7hWRTe1P6wqlD1d1lXcqN_3KILQ
+4 > Connection: Keep-Alive
+4 > Content-Type: application/json; charset=UTF-8
+4 > Cookie: _csrf=5e1cc1c05d064521fb12068e72f5bd5d2f59706d74deb6a2519e1b2348388a22a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HHUAqmHQUorF2T4AeMcjN0NMSEslR_qZ%22%3B%7D
+4 > Host: gorest.co.in
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+22:17:17.394 response time in milliseconds: 120.18
+4 < 200
+4 < Connection: keep-alive
+4 < Content-Type: application/json; charset=UTF-8
+4 < Date: Thu, 05 Sep 2019 16:47:17 GMT
+4 < Server: nginx
+4 < Set-Cookie: _csrf=a55a4158597fd3d3d3503378ea984b4a762bbd086d57df6dc2640ed7284fe6b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z0VOOwGRfUoxrrgxaQd7F7OQ_abTjtCQ%22%3B%7D; path=/; HttpOnly
+4 < Transfer-Encoding: chunked
+4 < Vary: [Accept-Encoding, Accept]
+4 < X-Rate-Limit-Limit: 30
+4 < X-Rate-Limit-Remaining: 25
+4 < X-Rate-Limit-Reset: 10
+{"_meta":{"success":true,"code":200,"message":"OK. Everything worked as expected.","rateLimit":{"limit":30,"remaining":25,"reset":10}},"result":{"id":"1688","first_name":"SLUser","last_name":"user2","gender":"female","dob":null,"email":"1567702036258@yahoo.com","phone":null,"website":null,"address":null,"status":"inactive","_links":{"self":{"href":"https://gorest.co.in/public-api/users/1688"},"edit":{"href":"https://gorest.co.in/public-api/users/1688"},"avatar":{"href":null}}}}
+
+22:17:17.397 request:
+5 > GET https://gorest.co.in/public-api/users?first_name=SLUser
+5 > Accept-Encoding: gzip,deflate
+5 > Authorization: Bearer m-22usQLz7hWRTe1P6wqlD1d1lXcqN_3KILQ
+5 > Connection: Keep-Alive
+5 > Cookie: _csrf=a55a4158597fd3d3d3503378ea984b4a762bbd086d57df6dc2640ed7284fe6b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Z0VOOwGRfUoxrrgxaQd7F7OQ_abTjtCQ%22%3B%7D
+5 > Host: gorest.co.in
+5 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+22:17:17.875 response time in milliseconds: 476.40
+5 < 200
+5 < Connection: keep-alive
+5 < Content-Type: application/json; charset=UTF-8
+5 < Date: Thu, 05 Sep 2019 16:47:17 GMT
+5 < Link: <https://gorest.co.in/public-api/users?first_name=SLUser&page=1>; rel=self
+5 < Server: nginx
+5 < Set-Cookie: _csrf=fc127398f0f8130b77d154fd17723bafbb7bc65079b69faa53957ec7ad704efea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BgMnsDqWCITsROqMaigje9eU3a4XBpwf%22%3B%7D; path=/; HttpOnly
+5 < Transfer-Encoding: chunked
+5 < Vary: [Accept-Encoding, Accept]
+5 < X-Pagination-Current-Page: 1
+5 < X-Pagination-Page-Count: 1
+5 < X-Pagination-Per-Page: 20
+5 < X-Pagination-Total-Count: 2
+5 < X-Rate-Limit-Limit: 30
+5 < X-Rate-Limit-Remaining: 24
+5 < X-Rate-Limit-Reset: 12
+{"_meta":{"success":true,"code":200,"message":"OK. Everything worked as expected.","totalCount":2,"pageCount":1,"currentPage":1,"perPage":20,"rateLimit":{"limit":30,"remaining":24,"reset":12}},"result":[{"id":"1687","first_name":"SLUser","last_name":"user1","gender":"male","dob":null,"email":"1567702036255@gmail.com","phone":null,"website":null,"address":null,"status":"active","_links":{"self":{"href":"https://gorest.co.in/public-api/users/1687"},"edit":{"href":"https://gorest.co.in/public-api/users/1687"},"avatar":{"href":null}}},{"id":"1688","first_name":"SLUser","last_name":"user2","gender":"female","dob":null,"email":"1567702036258@yahoo.com","phone":null,"website":null,"address":null,"status":"inactive","_links":{"self":{"href":"https://gorest.co.in/public-api/users/1688"},"edit":{"href":"https://gorest.co.in/public-api/users/1688"},"avatar":{"href":null}}}]}
+
+22:17:17.919 request:
+6 > DELETE https://gorest.co.in/public-api/users/1687
+6 > Accept-Encoding: gzip,deflate
+6 > Authorization: Bearer m-22usQLz7hWRTe1P6wqlD1d1lXcqN_3KILQ
+6 > Connection: Keep-Alive
+6 > Cookie: _csrf=fc127398f0f8130b77d154fd17723bafbb7bc65079b69faa53957ec7ad704efea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BgMnsDqWCITsROqMaigje9eU3a4XBpwf%22%3B%7D
+6 > Host: gorest.co.in
+6 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+22:17:18.394 response time in milliseconds: 474.30
+6 < 200
+6 < Connection: keep-alive
+6 < Content-Type: application/json; charset=UTF-8
+6 < Date: Thu, 05 Sep 2019 16:47:18 GMT
+6 < Server: nginx
+6 < Set-Cookie: _csrf=566d2a6a66ebc0b88d86f496ad9214422bab22efd970e2357c919a1d0e1c77a1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OZcJue4bSCPplKqkUCfP3HSyW1LlKIQx%22%3B%7D; path=/; HttpOnly
+6 < Transfer-Encoding: chunked
+6 < Vary: [Accept-Encoding, Accept]
+6 < X-Rate-Limit-Limit: 30
+6 < X-Rate-Limit-Remaining: 23
+6 < X-Rate-Limit-Reset: 14
+{"_meta":{"success":true,"code":204,"message":"The request was handled successfully and the response contains no body content.","rateLimit":{"limit":30,"remaining":23,"reset":14}},"result":null}
+
+22:17:18.397 request:
+7 > DELETE https://gorest.co.in/public-api/users/1688
+7 > Accept-Encoding: gzip,deflate
+7 > Authorization: Bearer m-22usQLz7hWRTe1P6wqlD1d1lXcqN_3KILQ
+7 > Connection: Keep-Alive
+7 > Cookie: _csrf=566d2a6a66ebc0b88d86f496ad9214422bab22efd970e2357c919a1d0e1c77a1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OZcJue4bSCPplKqkUCfP3HSyW1LlKIQx%22%3B%7D
+7 > Host: gorest.co.in
+7 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+22:17:18.842 response time in milliseconds: 444.85
+7 < 200
+7 < Connection: keep-alive
+7 < Content-Type: application/json; charset=UTF-8
+7 < Date: Thu, 05 Sep 2019 16:47:18 GMT
+7 < Server: nginx
+7 < Set-Cookie: _csrf=2f00131c0ccfe7d6b16247083f5a2d29ffefb50cf7b8d1fbf0acb6ef83befd14a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MEpGtGzfbQYfhQ0PwXigWik-VEmpbSdB%22%3B%7D; path=/; HttpOnly
+7 < Transfer-Encoding: chunked
+7 < Vary: [Accept-Encoding, Accept]
+7 < X-Rate-Limit-Limit: 30
+7 < X-Rate-Limit-Remaining: 22
+7 < X-Rate-Limit-Reset: 16
+{"_meta":{"success":true,"code":204,"message":"The request was handled successfully and the response contains no body content.","rateLimit":{"limit":30,"remaining":22,"reset":16}},"result":null}
+
